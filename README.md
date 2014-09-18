@@ -20,10 +20,10 @@ The following config options are available along with their default values:
 
 ```javascript
 config: {
-  database: '/path/databaseName',
+  database: '/path/to/databaseName',
   host: 'localhost',
   user: 'SYSDBA',
-  password: '',
+  password: 'masterkey',
   port: 3050
 };
 ```
