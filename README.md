@@ -20,21 +20,17 @@ The following config options are available along with their default values:
 
 ```javascript
 config: {
-  database: 'databaseName',
+  database: '/path/databaseName',
   host: 'localhost',
-  user: 'root',
+  user: 'SYSDBA',
   password: '',
-  port: 5432,
-  pool: false,
-  ssl: false
+  port: 3050
 };
 ```
 Alternatively, you can supply the connection information in URL format:
 ```javascript
 config: {
-  url: 'postgres://username:password@hostname:port/database',
-  pool: false,
-  ssl: false
+  url: 'firebird://username:password@hostname:port/database'
 };
 ```
 
